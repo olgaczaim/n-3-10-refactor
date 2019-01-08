@@ -5,7 +5,7 @@
 
 
 var person = {
-    name: "olgac"
+    name: "olgacz"
 }
 
 debugger;
@@ -14,3 +14,7 @@ person.age = 30;
 person.name = "Mike";
 
 console.log(person);
+
+//google chrome debugging
+//node --inspect-brk playground/debugging.js
+//chrome://inspect/#devices
